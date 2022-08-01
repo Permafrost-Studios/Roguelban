@@ -226,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 953162142}
-  - component: {fileID: 953162141}
+  - component: {fileID: 953162143}
   m_Layer: 0
   m_Name: WorldOrigin
   m_TagString: Untagged
@@ -234,21 +234,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &953162141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953162140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 749800ad93d43d14fbd6a4f2de8b785f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapSize: 1
-  ChunkSize: 16
-  block: {fileID: 0}
 --- !u!4 &953162142
 Transform:
   m_ObjectHideFlags: 0
@@ -264,6 +249,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953162143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953162140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749800ad93d43d14fbd6a4f2de8b785f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapSize: 10
+  ChunkSize: 16
+  block: {fileID: 3014856629578853947, guid: 74fc8866c10aa114d81ace20b59133a8, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
